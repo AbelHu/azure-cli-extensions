@@ -26,7 +26,7 @@ helps['account subscription create'] = """
                --sku-id "0001" --invoice-section-name "JGF7-NSBG-PJA-TGB"
 """
 
-helps['account subscription subscription-in-enrollment-account create'] = """
+helps['account subscription-in-enrollment-account create'] = """
     type: command
     short-summary: Create subscription in enrolment account
     examples:
@@ -39,7 +39,7 @@ helps['account subscription subscription-in-enrollment-account create'] = """
                "73f8ab6e-cfa0-42be-b886-be6e77c2980c"
 """
 
-helps['account subscription csp-subscription create'] = """
+helps['account csp-subscription create'] = """
     type: command
     short-summary: Create a new CSP subscription.
     examples:
