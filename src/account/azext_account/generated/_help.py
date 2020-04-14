@@ -13,13 +13,13 @@ helps['account subscription'] = """
     short-summary: account subscription
 """
 
-helps['account subscription create-subscription'] = """
+helps['account subscription create'] = """
     type: command
     short-summary: The operation to create a new WebDirect or EA Azure subscription.
     examples:
       - name: Create subscription
         text: |-
-               az account subscription create-subscription --billing-account-name \\
+               az account subscription create --billing-account-name \\
                "0aa27f2b-ec7f-5a65-71f6-a5ff0897bd55:ae0dae1e-de9a-41f6-8257-76b055d98372_2019-05-31" \\
                --billing-profile-name "27VR-HDWX-BG7-TGB" --cost-center "135366376" --display-name \\
                "Contoso MCA subscription" --owner object-id=973034ff-acb7-409c-b731-e789672c7b32 \\

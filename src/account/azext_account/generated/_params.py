@@ -13,7 +13,7 @@ from azure.cli.core.commands.parameters import (
 
 def load_arguments(self, _):
 
-    with self.argument_context('account subscription create-subscription') as c:
+    with self.argument_context('account subscription create') as c:
         c.argument('billing_account_name', help='The name of the Microsoft Customer Agreement billing account for which you want to create the subscription.')
         c.argument('billing_profile_name', help='The name of the billing profile in the billing account for which you want to create the subscription.')
         c.argument('invoice_section_name', help='The name of the invoice section in the billing account for which you want to create the subscription.')
