@@ -10,7 +10,7 @@ from knack.help_files import helps
 
 helps['account subscription'] = """
     type: group
-    short-summary: account subscription
+    short-summary: Manage subscriptions
 """
 
 helps['account subscription create'] = """
@@ -26,6 +26,11 @@ helps['account subscription create'] = """
                --sku-id "0001" --invoice-section-name "JGF7-NSBG-PJA-TGB"
 """
 
+helps['account subscription-in-enrollment-account'] = """
+    type: group
+    short-summary: Manage subscriptions in enrolment account
+"""
+
 helps['account subscription-in-enrollment-account create'] = """
     type: command
     short-summary: Create subscription in enrolment account
@@ -37,6 +42,11 @@ helps['account subscription-in-enrollment-account create'] = """
                object-id=973034ff-acb7-409c-b731-e789672c7b31 --owners \\
                object-id=67439a9e-8519-4016-a630-f5f805eba567 --enrollment-account-name \\
                "73f8ab6e-cfa0-42be-b886-be6e77c2980c"
+"""
+
+helps['account csp-subscription'] = """
+    type: group
+    short-summary: Manage CSP subscriptions
 """
 
 helps['account csp-subscription create'] = """
